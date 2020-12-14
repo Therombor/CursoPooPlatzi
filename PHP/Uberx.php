@@ -1,6 +1,6 @@
 <?php
 
-include "Car.php";
+include_once "Car.php";
 
 class Uberx extends Car
 {
