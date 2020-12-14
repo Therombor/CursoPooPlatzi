@@ -9,10 +9,14 @@ public class Main {
         Account conductor = new Account("Andres Herrera","23215315");
 
         Car car = new Car("AMQ123", conductor);
-        car.passenger = 4;
-
-        Car car2 = new Car("DFASDFA65", new Account("Patricio","ASD123"));
-        car2.passenger = 5;
+        // car.passenger = 4;
+        car.setPassenger(3);
+        car.printDataCar();
+        
+        Uberx car2 = new Uberx("DFASDFA65", new Account("Patricio","ASD123"),"Chevrolet","Park");
+        car2.setPassenger(3);
+        car2.printDataCar();
+        // car2.passenger = 5;
         
 
     }
